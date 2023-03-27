@@ -1,6 +1,10 @@
-# OpenAI experiments with Weaviate
+# OpenAI experiments with Weaviate - Turnkey Edition
 
-*Clone it, install packages, and have fun with it.* :)
+#### Motivation
+
+I just needed a simple `AI` container where I could fire up a vector database, connect to OpenAI and (re)create schemas and objects without caring much about anything else. And I wanted it to support languages like Python, JavaScript etc.
+
+Basically: *Clone it, install packages, and have fun with it.* :)
 
 ### Requirements
 
