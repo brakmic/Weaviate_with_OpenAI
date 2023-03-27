@@ -78,3 +78,7 @@ services:
       CLUSTER_HOSTNAME: 'node1'
 ...
 ```
+
+### License
+
+[MIT](LICENSE)
