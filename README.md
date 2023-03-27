@@ -22,7 +22,7 @@ Basically: *Clone it, install packages, and have fun with it.* :)
 * Generate an [OpenAI API Key](https://platform.openai.com/account/api-keys)
 * Add this key to local shell. By default the variable must be called `OPENAI_APIKEY`
 * Optionally, reconfigure `docker-compose.yml` to use additional plugins from [Weaviate](https://weaviate.io/developers/weaviate/installation/docker-compose)
-* Start container with `podman-compose up -**d**` or `docker-compose up -d`
+* Start container with `podman-compose up -d` or `docker-compose up -d`
 
 This is how the running container should look like.
 
