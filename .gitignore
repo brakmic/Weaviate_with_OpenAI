@@ -1,5 +1,6 @@
 .venv
 .DS_Store
+Pipfile
 
 # work in progress
 query_engine2.py
