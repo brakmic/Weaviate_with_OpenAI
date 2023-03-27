@@ -1,0 +1,6 @@
+.venv
+.DS_Store
+
+# work in progress
+query_engine2.py
+setup_engine2.py
