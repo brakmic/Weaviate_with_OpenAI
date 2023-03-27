@@ -42,7 +42,7 @@ Now query for some of those objects by using executing `python query_engine.py`.
 
 ![query1](images/query1.png)
 
-As Weaviate supports GraphQL as well you could also let Apollo GraphQL Explorer communicate with it. Just enter this URL: http://localhost:8080/graphql
+As Weaviate supports GraphQL as well you could also let Apollo GraphQL Explorer communicate with it. Just enter this URL: http://localhost:8080/v1/graphql
 
 ![graphql1](images/graphql1.png)
 
