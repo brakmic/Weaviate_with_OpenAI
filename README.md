@@ -1,5 +1,7 @@
 # OpenAI experiments with Weaviate
 
+*Clone it, install packages, and have fun with it.* :)
+
 ### Requirements
 
 * [Python 3](https://www.python.org/)
@@ -10,15 +12,15 @@
 
 * Install [python 3](https://www.python.org/downloads/) for your OS
 * Install [pipenv](https://pipenv.pypa.io/en/latest/) with `pip install --user pipenv`
-* Initialize pipenv in your repo clone with `pipenv --python3`
-* Start your python env with `pipenv shell`
+* Initialize pipenv in cloned repo with `pipenv --python3`
+* Start python env with `pipenv shell`
 * Install python packages `weaviate-client`, `requests`, and `json` with `pip3 install PKG_NAME`
 * Generate an [OpenAI API Key](https://platform.openai.com/account/api-keys)
-* Add this key to your local shell. By default the variable must be called `OPENAI_APIKEY`
-* Optionally, you can reconfigure `docker-compose.yml` to use additional plugins from [Weaviate](https://weaviate.io/developers/weaviate/installation/docker-compose)
+* Add this key to local shell. By default the variable must be called `OPENAI_APIKEY`
+* Optionally, reconfigure `docker-compose.yml` to use additional plugins from [Weaviate](https://weaviate.io/developers/weaviate/installation/docker-compose)
 * Start container with `podman-compose up -**d**` or `docker-compose up -d`
 
-This is how the running container should look like:
+This is how the running container should look like.
 
 ![podman1](images/podman1.png)
 
@@ -28,7 +30,7 @@ This is how the running container should look like:
 
 * Open http://localhost:8080/v1/schema (it should be empty on the first start)
 * Go to shell and execute `python setup_engine.py`
-* Refresh the page again
+* Refresh the page
 
 You should see something like this:
 
@@ -42,13 +44,15 @@ Now query for some of those objects by using executing `python query_engine.py`.
 
 ![query1](images/query1.png)
 
-As Weaviate supports GraphQL as well you could also let Apollo GraphQL Explorer communicate with it. Just enter this URL: http://localhost:8080/v1/graphql
+As Weaviate also supports GraphQL you could use [Apollo GraphQL Explorer](https://studio.apollographql.com/sandbox/explorer) to send queries.
+
+Just enter http://localhost:8080/v1/graphql into the sandbox field.
 
 ![graphql1](images/graphql1.png)
 
 ### Docker Compose
 
-The default docker-compose.yml from this repo looks like this:
+The default docker-compose.yml from this repo looks like this.
 
 ```yaml
 ---
