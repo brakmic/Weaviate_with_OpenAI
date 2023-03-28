@@ -18,7 +18,7 @@ Basically: *Clone it, install packages, and have fun with it.* :)
 * Install [pipenv](https://pipenv.pypa.io/en/latest/) with `pip install --user pipenv`
 * Initialize pipenv in cloned repo with `pipenv --python3`
 * Start python env with `pipenv shell`
-* Install python packages `weaviate-client`, `requests`, and `json` with `pip3 install PKG_NAME`
+* Install python packages `weaviate-client` and `requests` with `pip3 install PKG_NAME`
 * Generate an [OpenAI API Key](https://platform.openai.com/account/api-keys)
 * Add this key to local shell. By default the variable must be called `OPENAI_APIKEY`
 * Optionally, reconfigure `docker-compose.yml` to use additional plugins from [Weaviate](https://weaviate.io/developers/weaviate/installation/docker-compose)
