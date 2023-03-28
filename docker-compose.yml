@@ -14,7 +14,7 @@ services:
     - 8080:8080
     restart: on-failure:0
     volumes:
-    - ./weaviate_local:/var/lib/weaviate
+    - $HOME/weaviate_local:/var/lib/weaviate
     environment:
       OPENAI_APIKEY: $OPENAI_APIKEY
       QUERY_DEFAULTS_LIMIT: 25
