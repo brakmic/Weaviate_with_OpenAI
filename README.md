@@ -1,4 +1,4 @@
-# OpenAI experiments with Weaviate - Turnkey Edition
+# [OpenAI](https://openai.com/) experiments with [Weaviate](https://weaviate.io) - Turnkey Edition
 
 #### Motivation
 
